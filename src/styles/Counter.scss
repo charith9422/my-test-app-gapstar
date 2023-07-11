@@ -1,0 +1,32 @@
+.counter__wrapper {
+	margin: 1rem;
+	padding: 2rem;
+	display: block;
+	line-height: 1;
+	p {
+		font-size: 20px;
+		text-align: center;
+	}
+	.counter__actions__wrapper {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.btn {
+	padding: 0.8rem;
+	color: #ffffff;
+	outline: none;
+	border: none;
+	margin: 0.2rem;
+	cursor: pointer;
+	&.btn-primary {
+		background: rgb(31, 7, 138);
+	}
+	&.btn-secondary {
+		background: rgb(112, 7, 138);
+	}
+	&.btn-other {
+		background: rgb(104, 1, 53);
+	}
+}
