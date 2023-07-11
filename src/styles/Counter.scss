@@ -13,12 +13,14 @@
 	}
 }
 
+//common button stylings
 .btn {
 	padding: 0.8rem;
 	color: #ffffff;
 	outline: none;
 	border: none;
 	margin: 0.2rem;
+	border-radius: 0.6rem;
 	cursor: pointer;
 	&.btn-primary {
 		background: rgb(31, 7, 138);
